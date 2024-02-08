@@ -14,7 +14,7 @@ export const zhNavbar = navbar([
         icon: "pen-to-square",
         prefix: "Java/",
         children: [
-          { text: "Spring", icon: "pen-to-square", link: "Spring" },
+          { text: "Spring", icon: "pen-to-square", link: "Spring6" },
           { text: "SpringMVC", icon: "pen-to-square", link: "SpringMVC" },
           {
             text: "Spring Security",
