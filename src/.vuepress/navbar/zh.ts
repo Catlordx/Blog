@@ -3,46 +3,32 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   "/",
   // 这个玩意儿会自动找到/demo/目录下的read文件，然后读取title和语言等等
-  "/demo/",
+  // "/demo/",
   {
     text: "博文",
     icon: "pen-to-square",
-    prefix: "/zh/posts/",
+    prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "Java",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "Java/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "Spring", icon: "pen-to-square", link: "Spring" },
+          { text: "SpringMVC", icon: "pen-to-square", link: "SpringMVC" },
+          {
+            text: "Spring Security",
+            icon: "pen-to-square",
+            link: "SpringSecurity",
+          },
         ],
       },
       {
-        text: "香蕉",
+        text: "LaTeX",
         icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+        prefix: "LaTeX/",
+        children: [{ text: "LaTeX", icon: "pen-to-square", link: "latex" }],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
   // {

@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import { MR_HOPE_AVATAR } from "./logo.js";
+// import { CatLord } from "./logo.js";
 
 export default hopeTheme({
   darkmode: "toggle",
@@ -9,7 +9,7 @@ export default hopeTheme({
 
   author: {
     name: "jianwen",
-    url: "https://mister-hope.com",
+    url: "https://catlordx.github.io/Blog/",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -21,16 +21,10 @@ export default hopeTheme({
 
   blog: {
     medias: {
-      BiliBili: "https://example.com",
-      Discord: "https://example.com",
-      Gitee: "https://example.com",
+      Discord: "https://discord.gg/88asQZQf",
+      Gitee: "https://gitee.com/CatLordx",
       GitHub: "https://github.com/Catlordx?tab=repositories",
-      Gitlab: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Weibo: "https://example.com",
       Zhihu: "https://example.com",
-      jianwen: ["https://mister-hope.com", MR_HOPE_AVATAR],
     },
   },
 
