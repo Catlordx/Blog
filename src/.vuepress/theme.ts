@@ -4,7 +4,6 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
-  // 主题默认颜色相关配置
   darkmode: "toggle",
   hostname: "https://mister-hope.github.io",
 
@@ -15,14 +14,11 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  // 个人介绍部分的logo,只需要写绝对路径即可（基于.vueperss/public
-  logo: '/magpie.svg',
+  logo: "/magpie.svg",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-
   docsDir: "src",
 
-  // 个人介绍部分的博客地址
   blog: {
     medias: {
       BiliBili: "https://example.com",
@@ -39,7 +35,7 @@ export default hopeTheme({
   },
 
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -63,7 +59,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -75,7 +71,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        description: "一个精通多语言Hello World的Coder",
         intro: "/zh/intro.html",
       },
 

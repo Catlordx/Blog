@@ -1,8 +1,9 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
-  "/zh/demo/",
+  "/",
+  // 这个玩意儿会自动找到/demo/目录下的read文件，然后读取title和语言等等
+  "/demo/",
   {
     text: "博文",
     icon: "pen-to-square",
@@ -44,9 +45,9 @@ export const zhNavbar = navbar([
       "strawberry",
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  // {
+  //   text: "V2 文档",
+  //   icon: "book",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
 ]);
