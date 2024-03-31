@@ -6,7 +6,7 @@
 
 ## 1.Linux系统结构
 
-![image-20240113161042823](D:/CS/Note/Linux.assets/image-20240113161042823.png)
+![image-20240113161042823](./Linux.assets/image-20240113161042823.png)
 
 对每个目录的简要解释
 
