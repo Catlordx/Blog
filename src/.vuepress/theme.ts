@@ -25,6 +25,7 @@ export default hopeTheme({
       Gitee: "https://gitee.com/CatLordx",
       GitHub: "https://github.com/Catlordx?tab=repositories",
       Zhihu: "https://example.com",
+      CSDN: "https://blog.csdn.net/m0_74246237?spm=1000.2115.3001.5343",
     },
   },
 
