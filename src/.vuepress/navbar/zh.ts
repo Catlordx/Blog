@@ -26,7 +26,12 @@ export const zhNavbar = navbar([
       {
         text: "LaTeX",
         icon: "pen-to-square",
-        link: "latex",
+        // link: "latex",
+        prefix: "LaTeX/",
+        children:[
+          {text: "LaTex + VSCode",icon:"pen-to-square",link:"latex"},
+          {text: "LaTex + WritterSide",icon:"pen-to-square",link:"LaTexWithWriiterSide"},
+        ]
       },
       {
         text: "Linux",

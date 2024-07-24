@@ -189,8 +189,7 @@ cp [选项] source targetFolder
 
 | 选项 | 功能                                                         |
 | ---- | ------------------------------------------------------------ |
-| -r   | 递归复制整个文件夹（例如cp -r demo/ demo-r/，则会将整个demo文件夹拷一份到demo-r下。即demo-r文件夹下会出现一个demo文件夹） |
-|      |                                                              |
+| -r   | 递归复制整个文件夹（例如cp -r demo/ demo-r/，则会将整个demo文件夹拷一份到demo-r下。即demo-r文件夹下会出现一个demo文件夹 |
 
 当我们复制文件的时候可能会有一些同名文件的情况，在cp指令前面加上\，即\cp就能够强制覆盖不提示。
 
@@ -395,7 +394,7 @@ apt-get命令一般需要root权限执行，所以一般跟着sudo命令。
 - sudo apt-get check 检查是否有损坏的依赖
 
 ## 4.用户管理
-
+<!-- BUG there are some bugs that need to be fixed -->
 * 新增用户
 
   useradd your_usr_name
