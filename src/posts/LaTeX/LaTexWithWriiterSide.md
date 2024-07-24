@@ -1,4 +1,4 @@
-### 利用Writerside轻松舒适书写LaTeX文档
+# LaTeX powered by WriterSide
 
 > 为什么使用Writerside:
 >
